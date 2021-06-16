@@ -1,0 +1,5 @@
+p1 = int(input("Введите время в секундах"))
+hours = int(p1 / 3600)
+minutes = int((p1 % 3600) / 60)
+seconds = int(((p1 % 3600) % 60) / 1)
+print(f'{hours}:{minutes}:{seconds}')
